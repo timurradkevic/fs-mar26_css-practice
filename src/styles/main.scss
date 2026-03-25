@@ -1,0 +1,19 @@
+@import './utils/variables.scss';
+@import './utils/mixins.scss';
+
+@import './people.scss';
+@import './person.scss';
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: var(--fs-extra-small);
+}
+
+body {
+  margin: 0;
+}

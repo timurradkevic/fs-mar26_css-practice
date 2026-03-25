@@ -1,0 +1,48 @@
+.person {
+
+  &__photos {
+    position: relative;
+  }
+
+  &__photo {
+    transition: border-radius 0.3s;
+    transition-delay: 1s;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+
+  &__rank {
+    width: 32px;
+    height: 32px;
+    right: 10px;
+    top: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--main-neutral-1000);
+    color: var(--main-accent-red-400);
+  }
+
+  &__details {
+    text-align: center;
+  }
+
+  &__name {
+    color: var(--main-neutral-400);
+    font-weight: 700;
+    font-size: var(--fs-medium);
+    transition: font-size 0.3s;
+    transition-delay: 1s;
+  }
+
+  &__extra {
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: 400;
+    font-size: var(--fs-small);
+  }
+}
